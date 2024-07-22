@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parttwo {
+    width: 100%;
+}
+.table {
+    display: flex;
+    margin-top: 64px;
+    gap: 120px; 
+    margin-left: 72px;
+}
+.parttwo-title {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    margin-left: 72px;
+    margin-top: 120px;
+}
+.parttwo-img {
+    width: 70px;
+    height: 70px;
+}
+.parttwo-item {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #020C31;
+    margin-top: 200px;
+}
+.parttwo-text {
+    width: 301px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #676D83;
+}
+.parttwo-imgklapa {
+    margin-left: 40px;
+    margin-top: 96px;
+    width: 1360px;
+    height: 600px;
+    position: absolute;
+}
+.parttwo-klapa {
+    margin-left: 726px;
+    position: relative;
+    margin-top: 150px;
+}
+.klapa-item {
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    width: 430px;
+    color: #FAFAFA;
+}
+.klapa-text {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FAFAFA;
+    width: 300px;
+    margin-top: 20px;
+}
+.klapa-btn {
+    width: 218px;
+    height: 48px;
+    border-radius: 64px;
+    gap: 10px;
+    border: none;
+    background-color: #3375FF;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 136px;
+}
+.klapa-btn:hover {
+    cursor: pointer;
+    border: 3px solid #3375FF;
+    background-color: #FFFFFF;
+    color: #3375FF;
+}

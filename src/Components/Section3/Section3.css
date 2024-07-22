@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.service {
+    width: 100%;
+    margin-top: 250px;
+}
+.service-title {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 64px;
+    color: #020C31;
+    margin-left: 72px;
+}
+.service-text {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #666666;
+    margin-left: 72px;
+    margin-top: 16px;
+    width: 335px;    
+}
+.service-table {
+    margin-top: 48px;
+    margin-left: 40px;
+    display: flex;
+    gap: 16px;
+}
+.junior {
+    width: 443px;
+    height: 500px;
+    background-color: #F3F6F6;
+    border-radius: 12px;
+}
+.junior-title {
+    margin-left: 32px;
+    margin-top: 48px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #020C31;
+    width: 335px;
+}
+.junior-item {
+    margin-left: 32px;
+    margin-top: 20px;
+    color: #056AC7;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+}
+.junior-number {
+    color: #056AC7;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 32px;
+    margin-top: 10px;
+}
+.junior-img {
+    width: 80px;
+    height: 80px;
+    margin-left: 323px;
+    margin-top: 220px;
+}
+.service-bg {
+    width: 1360px;
+    height: 574px;
+    margin-left: 40px;
+    margin-top: 120px;
+    position: absolute;
+}
+.service-data {
+    display: flex;
+    position: relative;
+}
+.service-women {
+    width: 528px;
+    height: 510px;
+    margin-top: 150px;
+    margin-left: 72px;
+}
+.datas {
+    margin-left: 126px;
+    margin-top: 180px;
+}
+.service-icon {
+    width: 80px;
+    height: 80px;
+}
+.service-title2 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    width: 550px;
+    color: #FAFAFA;
+}
+.service-btn {
+    width: 218px;
+    height: 48px;
+    border-radius: 62px;
+    border: none;
+    background-color: #3375FF;
+    margin-top: 136px;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.service-btn:hover {
+    cursor: pointer;
+    border: 3px solid #3375FF;
+    background-color: #FAFAFA;
+    color: #3375FF;
+}
