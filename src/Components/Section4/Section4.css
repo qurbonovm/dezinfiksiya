@@ -96,24 +96,9 @@
     margin-left: 350px;
     margin-top: -132px;
 }
-.accordion {
-    background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 90%;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.4s;
-    gap: 10px;
-  }
-  .active, .accordion:hover {
-    background-color: #ccc;
-  }
-  .panel {
-    padding: 0 18px;
-    background-color: white;
-    display: none;
-    overflow: hidden;
-  }
+/* .accardion {
+    height: 50px;
+} */
+.faq-accardion {
+    
+}

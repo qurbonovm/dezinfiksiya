@@ -8,6 +8,10 @@
 }
 .header {
     width: 100%;
+    position: fixed;
+    background-color: white;
+    padding: 20px ;
+    z-index: 10;
 }
 .container {
     display: flex;
@@ -33,7 +37,7 @@
 }
 .header-list:hover {
     cursor: pointer;
-    color: red;
+    color: blue;
 }
 .header-btn {
     width: 190px;

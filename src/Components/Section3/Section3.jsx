@@ -6,29 +6,28 @@ import Logo3 from '../Img/logos3.png'
 import BG from '../Img/Rectangle.png'
 import Women from '../Img/women.png'
 import Icon from '../Img/3dicons.png'
+import { useTranslation } from 'react-i18next'
 
 function Section3() {
+    const {t, i18n} = useTranslation();
   return (
     <div className='service'>
-        <h2 className='service-title'>Service</h2>
-        <p className='service-text'>Bu darsliklari sizning yuqori daraja olishingizga yordam beradi</p>
+        <h2 className='service-title'>{t('servis')}</h2>
+        <p className='service-text'>{t('samara')}</p>
         <div className="service-table">
             <div className="junior">
-                <h3 className='junior-title'>Boshlang’ich tushunchalar</h3>
-                <strong className='junior-item'>Nazariy bilimlar</strong>
-                <p className='junior-number'>16 dars</p>
+                <h3 className='junior-title'>{t('klap')}</h3>
+                <p className='junior-number'>{t('mebel')}</p>
                 <img className='junior-img' src={Logo1} alt="" />
             </div>
             <div className="junior">
-                <h3 className='junior-title'>O'rta</h3>
-                <strong className='junior-item'>Nazariy va Amaliy bilimlar</strong>
-                <p className='junior-number'>23 dars</p>
+                <h3 className='junior-title'>{t('tarakan')}</h3>
+                <p className='junior-number'>{t('ular')}</p>
                 <img className='junior-img' src={Logo2} alt="" />
             </div>
             <div className="junior">
-                <h3 className='junior-title'>Yuqori</h3>
-                <strong className='junior-item'>Amaliy Bilimlar</strong>
-                <p className='junior-number'>16 dars</p>
+                <h3 className='junior-title'>{t('chayon')}</h3>
+                <p className='junior-number'>{t('hashorat')}</p>
                 <img className='junior-img' src={Logo3} alt="" />
             </div>
         </div>
@@ -37,8 +36,8 @@ function Section3() {
             <div className="img"><img className='service-women' src={Women} alt="" /></div>
             <div className="datas">
                 <img className='service-icon' src={Icon} alt="" />
-                <h3 className='service-title2'>Bizga ko'p yillardan beri kompaniyamizga ishonch bildirganlar talaygina</h3>
-                <button className='service-btn'>Bog'lanish</button>
+                <h3 className='service-title2'>{t('rasmiy')}</h3>
+                <button className='service-btn'>{t('boglanish')}</button>
             </div>
         </div>
     </div>
